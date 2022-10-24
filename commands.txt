@@ -3,8 +3,8 @@ openssl aes-128-cbc -e -in penguin.bmp -out penguin-cbc.dat
 
 openssl aes-128-ecb -e -K 00 -p -in penguin.bmp -out penguin.bmp.ecb
 
-Copied penguin.bmp.ecb to penguin.bmp.ecb.bmp. Copied the first 32 bytes/265 bits/2 blocks from the plaintext file penguin.bmp and pasted over the first 32 bytes of penguin.bmp.ecb.bmp.
+Copied penguin.bmp.ecb to penguin.bmp.ecb.bmp. Copied the first 48 bytes/3 blocks from the plaintext file penguin.bmp and pasted over the first 48 bytes of penguin.bmp.ecb.bmp.
 
 openssl aes-128-cbc -e -K 00 -iv 00 -p -in penguin.bmp -out penguin.bmp.cbc
 
-Copied penguin.bmp.cbc to penguin.bmp.ecb.bmp. Copied the first 32 bytes/265 bits/2 blocks from the plaintext file penguin.bmp and pasted over the first 32 bytes of penguin.bmp.cbc.bmp.
+Copied penguin.bmp.cbc to penguin.bmp.ecb.bmp. Copied the first 48 bytes/3 blocks from the plaintext file penguin.bmp and pasted over the first 48 bytes of penguin.bmp.cbc.bmp.
